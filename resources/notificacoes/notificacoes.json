@@ -1,0 +1,24 @@
+{
+    "notificacoes" : [
+        {
+            "title": "Olá, mamãe!",
+            "body":"Dúvidas se o seu bebê está pegando a mama de forma correta? Vem conferir as dicas do SOS Mama.",
+            "daysToShow": 15
+        },
+        {
+            "title": "Olá, mamãe!",
+            "body":"Precisa de ajuda na amamentação? O SOS Mama pode te ajudar.",
+            "daysToShow": 30
+        },
+        {
+            "title": "Olá, mamãe!",
+            "body":"O leite empedrou e não sabe o que fazer? O SOS Mama pode te ajudar.",
+            "daysToShow": 60
+        },
+        {
+            "title": "Olá, mamãe!",
+            "body":"Precisa sair de casa e quer deixar leite para seu bebê, já sabe como extrair? O SOS Mama pode te ajudar.",
+            "daysToShow": 150
+        }
+    ]
+}

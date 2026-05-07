@@ -1,0 +1,40 @@
+{
+    "content" : [
+        {
+            "picture" : "resources/sobre/sos_mama.png",
+            "name": "",
+            "description": "Aplicativo desenvolvido para auxiliar no enfrentamento das principais dificuldades vivenciadas pelas mulheres durante o aleitamento materno."
+            
+        },
+        {
+            "picture" : "resources/sobre/ana.jpeg",
+            "name": "Enfa. Ma. Ana Paula Matos Ferreira",
+            "description": "Idealizadora"
+        },
+        {
+            "picture" : "resources/sobre/adriana.jpeg",
+            "name": "Profa. Dra. Adriana Gomes Nogueira Ferreira",
+            "description": "Orientadora"
+        },
+        {
+            "picture" : "resources/sobre/cnpq.png",
+            "name": "CNPq\nConselho Nacional de Desenvolvimento Científico e Tecnológico",
+            "description": "Financiador"
+        },
+        {
+            "picture" : "resources/sobre/eduardo.jpeg",
+            "name": "José Eduardo de Souza Oliveira",
+            "description": "Progamador"
+        },
+        {
+            "picture" : "resources/sobre/guilherme.jpeg",
+            "name": "Guilherme de Carvalho da Silva",
+            "description": "Designer"
+        },
+        {
+            "picture" : "resources/sobre/maiane.jpeg",
+            "name": "Maiane Nunes Costa",
+            "description": "Designer"
+        }
+    ]
+}

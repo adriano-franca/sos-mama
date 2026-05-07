@@ -1,0 +1,15 @@
+{
+    "header": "Sintomas",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/sintomas_01.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/sintomas_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/sintomas_02.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/sintomas_02.txt"
+        }
+    ]
+}

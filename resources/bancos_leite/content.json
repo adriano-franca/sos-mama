@@ -1,0 +1,29 @@
+{
+    "content" : [
+        {
+            "region" : "Norte",
+            "url": "https://producao.redeblh.icict.fiocruz.br/portal_blh/blh_brasil.php?regiao=norte",
+            "imageAsset" : "resources/bancos_leite/norte.png"
+        },
+        {
+            "region" : "Nordeste",
+            "url": "http://producao.redeblh.icict.fiocruz.br/portal_blh/blh_brasil.php?regiao=nordeste",
+            "imageAsset" : "resources/bancos_leite/nordeste.png"
+        },
+        {
+            "region" : "Centro-Oeste",
+            "url": "https://producao.redeblh.icict.fiocruz.br/portal_blh/blh_brasil.php?regiao=centro-oeste",
+            "imageAsset" : "resources/bancos_leite/centro_oeste.png"
+        },
+        {
+            "region" : "Sudeste",
+            "url": "http://producao.redeblh.icict.fiocruz.br/portal_blh/blh_brasil.php?regiao=sudeste",
+            "imageAsset" : "resources/bancos_leite/sudeste.png"
+        },
+        {
+            "region" : "Sul",
+            "url": "http://producao.redeblh.icict.fiocruz.br/portal_blh/blh_brasil.php?regiao=sul",
+            "imageAsset" : "resources/bancos_leite/sul.png"
+        }
+    ]
+}

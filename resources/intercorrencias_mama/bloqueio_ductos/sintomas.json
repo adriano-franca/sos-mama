@@ -1,0 +1,10 @@
+{
+    "header": "Sintomas",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/bloqueio_ductos/sintomas_01.png",
+            "subtitle":"resources/intercorrencias_mama/bloqueio_ductos/sintomas_01.txt"
+        }
+    ]
+}

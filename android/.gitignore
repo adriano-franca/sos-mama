@@ -1,0 +1,52 @@
+# Misc
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Flutter / Dart
+.dart_tool/
+.pub/
+build/
+
+# Flutter generated
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Android
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Coverage
+coverage/
+
+# Secrets
+.env
+.env.*
+
+# Android signing
+*.jks
+*.keystore
+key.properties

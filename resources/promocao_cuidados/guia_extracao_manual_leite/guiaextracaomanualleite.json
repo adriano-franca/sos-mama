@@ -1,0 +1,20 @@
+{
+    "content": [
+        {
+            "video":"resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_01.mp4", 
+            "text": "resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_01.txt"
+        },
+        {
+            "video":"resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_02.mp4", 
+            "text": "resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_02.txt"
+        },
+        {
+            "video":"resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_03.mp4", 
+            "text": "resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_03.txt"
+        },
+        {
+            "video":"resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_04.mp4", 
+            "text": "resources/promocao_cuidados/guia_extracao_manual_leite/guiaextracaomanualleite_04.txt"
+        }                                          
+    ]
+}

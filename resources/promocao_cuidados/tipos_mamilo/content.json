@@ -1,0 +1,16 @@
+{
+    "content" : [
+        {
+            "text": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_01.txt",
+            "image": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_01.png"
+        },
+        {
+            "text": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_02.txt",
+            "image": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_02.png"
+        },
+        {
+            "text": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_03.txt",
+            "image": "resources/promocao_cuidados/tipos_mamilo/tipos_mamilo_03.png"
+        }
+    ]
+}

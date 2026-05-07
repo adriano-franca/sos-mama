@@ -1,0 +1,36 @@
+{
+    "header": "Como tratar?",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_01.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_02.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_02.txt"
+        },
+    
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_03.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_03.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_04.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_04.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_05.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_05.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/mastite/comotratar_06.png",
+            "subtitle":"resources/intercorrencias_mama/mastite/comotratar_06.txt"
+        }
+    ]
+}

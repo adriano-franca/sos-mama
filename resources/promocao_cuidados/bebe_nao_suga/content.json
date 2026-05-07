@@ -1,0 +1,25 @@
+{
+    "content" : [
+        {
+            "media" : "resources/promocao_cuidados/bebe_nao_suga/content_01.png",
+            "type" : "image",
+            "subtitle": "resources/promocao_cuidados/bebe_nao_suga/content_01.txt"
+            
+        },
+        {
+            "media" : "resources/promocao_cuidados/bebe_nao_suga/content_02.png",
+            "type" : "image",
+            "subtitle": "resources/promocao_cuidados/bebe_nao_suga/content_02.txt"
+        },
+        {
+            "media" : "resources/promocao_cuidados/bebe_nao_suga/content_03.png",
+            "type" : "image",
+            "subtitle": "resources/promocao_cuidados/bebe_nao_suga/content_03.txt"
+        },
+        {
+            "media" : "resources/promocao_cuidados/bebe_nao_suga/content_04.png",
+            "type" : "image",
+            "subtitle": "resources/promocao_cuidados/bebe_nao_suga/content_04.txt"
+        }
+    ]
+}

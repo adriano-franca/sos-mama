@@ -1,0 +1,20 @@
+{
+    "header": "Como tratar?",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/bloqueio_ductos/comotratar_01.png",
+            "subtitle":"resources/intercorrencias_mama/bloqueio_ductos/comotratar_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/bloqueio_ductos/comotratar_02.png",
+            "subtitle":"resources/intercorrencias_mama/bloqueio_ductos/comotratar_02.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/bloqueio_ductos/comotratar_03.png",
+            "subtitle":"resources/intercorrencias_mama/bloqueio_ductos/comotratar_03.txt"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+name: sos_mama
+description: Aplicativo para auxiliar no manejo das principais dificuldades
+  vivenciadas pelas mulheres durante o aleitamento materno.
+
+version: 5.5.1+53
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_local_notifications: ^19.5.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_timezone: ^5.0.2
+
+  intl: ^0.20.1
+  introduction_screen: ^3.1.17
+  path_provider: ^2.1.5
+
+  shared_preferences: ^2.3.2
+  sqflite: ^2.3.3+1
+
+  url_launcher: ^6.3.2
+  video_player: ^2.10.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - resources/
+    - resources/intercorrencias_mama/
+    - resources/intercorrencias_mama/leite_empedrado/
+    - resources/intercorrencias_mama/mastite/
+    - resources/intercorrencias_mama/abcesso/
+    - resources/intercorrencias_mama/fissuras_no_mamilo/
+    - resources/intercorrencias_mama/bloqueio_ductos/
+    - resources/promocao_cuidados/
+    - resources/promocao_cuidados/pega_correta/
+    - resources/promocao_cuidados/guia_extracao_manual_leite/
+    - resources/promocao_cuidados/queixa_pouco_leite/
+    - resources/promocao_cuidados/tipos_mamilo/
+    - resources/promocao_cuidados/descida_leite/
+    - resources/promocao_cuidados/bebe_nao_suga/
+    - resources/bancos_leite/
+    - resources/icons/
+    - resources/icons/bancos_leite/
+    - resources/profile/
+    - resources/promocao_cuidados/
+    - resources/videos/
+    - resources/tutorial/
+    - resources/sobre/
+    - resources/notificacoes/

@@ -1,0 +1,31 @@
+{
+    "header": "O que causa?",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/oquecausa_01.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/oquecausa_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/oquecausa_02.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/oquecausa_02.txt"
+        },
+        
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/oquecausa_03.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/oquecausa_03.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/oquecausa_04.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/oquecausa_04.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/oquecausa_05.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/oquecausa_05.txt"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "header": "Como prevenir?",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/abcesso/comoprevenir_01.png",
+            "subtitle":"resources/intercorrencias_mama/abcesso/comoprevenir_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/abcesso/comoprevenir_02.png",
+            "subtitle":"resources/intercorrencias_mama/abcesso/comoprevenir_02.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/abcesso/comoprevenir_03.png",
+            "subtitle":"resources/intercorrencias_mama/abcesso/comoprevenir_03.txt"
+        }
+    ]
+}

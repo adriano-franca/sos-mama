@@ -1,0 +1,15 @@
+{
+    "header": "Como prevenir?",
+    "content": [
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/comoprevenir_01.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/comoprevenir_01.txt"
+        },
+        {
+            "type": "image",
+            "media": "resources/intercorrencias_mama/leite_empedrado/comoprevenir_02.png",
+            "subtitle":"resources/intercorrencias_mama/leite_empedrado/comoprevenir_02.txt"
+        }
+    ]
+}
