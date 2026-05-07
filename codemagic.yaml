@@ -8,17 +8,14 @@ workflows:
       flutter: stable
       xcode: latest
 
+      ios_signing:
+        provisioning_profiles:
+          - sosmama_profile
+
     scripts:
-      - name: Flutter Pub Get
-        script: flutter pub get
-
-      - name: Install Pods
-        script: |
-          cd ios
-          pod install
-
-      - name: Build IPA
-        script: flutter build ipa --release
+      - flutter pub get
+      - cd ios && pod install
+      - flutter build ipa --release --no-codesign
 
     artifacts:
       - build/ios/ipa/*.ipa
