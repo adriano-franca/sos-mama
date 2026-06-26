@@ -2,7 +2,7 @@ name: sos_mama
 description: Aplicativo para auxiliar no manejo das principais dificuldades
   vivenciadas pelas mulheres durante o aleitamento materno.
 
-version: 5.5.1+53
+version: 5.5.1+54
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
