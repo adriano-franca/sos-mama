@@ -14,13 +14,17 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.teps.sosmama 
         
-    scripts:
-      - name: Instalar dependências Flutter
-        script: flutter pub get
-      - name: Instalar dependências iOS (Pods)
-        script: cd ios && pod install
-      - name: Build do IPA assinado
-        script: flutter build ipa --release --export-method=app-store
+    scripts: |
+      xcodebuild -workspace ios/Runner.xcworkspace \
+          -scheme Runner \
+          -sdk iphoneos \
+          -configuration Release \
+          -archivePath build/Runner.xcarchive archive
+          
+          xcodebuild -exportArchive \
+          -archivePath build/Runner.xcarchive \
+          -exportPath build/ios/ipa \
+          -exportOptionsPlist export_options.plist
 
     artifacts:
       - build/ios/ipa/*.ipa
