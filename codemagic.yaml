@@ -8,34 +8,34 @@ workflows:
       groups:
         - appstore_credentials
       # ios_signing deve ficar DENTRO de environment
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.teps.sosmama
+  ios_signing:
+    distribution_type: app_store
+    bundle_identifier: com.teps.sosmama
         
     # scripts, artifacts e publishing devem estar alinhados com environment
-    scripts:
-      - name: Instalar dependências Flutter
-        script: flutter pub get
-        
-      - name: Instalar dependências iOS (Pods)
-        script: |
-          cd ios
-          pod install
-          
-      # PASSO FALTANTE ADICIONADO AQUI:
-      - name: Configurar perfis de assinatura no Xcode
-        script: xcode-project use-profiles
-        
-      - name: Build do IPA assinado
-        script: |
-          flutter build ipa --release --export-method=app-store
-          
-    artifacts:
-      - build/ios/ipa/*.ipa
+ scripts:
+  - name: Instalar dependências Flutter
+    script: flutter pub get
+    
+  - name: Instalar dependências iOS (Pods)
+    script: |
+      cd ios
+      pod install
       
-    publishing:
-      app_store_connect:
-        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
-        submit_to_testflight: true
+  # PASSO FALTANTE ADICIONADO AQUI:
+  - name: Configurar perfis de assinatura no Xcode
+    script: xcode-project use-profiles
+    
+  - name: Build do IPA assinado
+    script: |
+      flutter build ipa --release --export-method=app-store
+      
+ artifacts:
+  - build/ios/ipa/*.ipa
+  
+ publishing:
+   app_store_connect:
+    api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+    key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+    issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+    submit_to_testflight: true
