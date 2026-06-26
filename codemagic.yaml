@@ -1,21 +1,26 @@
 workflows:
   ios-release:
     name: iOS Release
-
     instance_type: mac_mini_m2
-
+    
     environment:
       flutter: stable
       xcode: latest
-
+      
+      groups:
+        - appstore_credentials 
+        
       ios_signing:
-        provisioning_profiles:
-          - sosmama_profile
-
+        distribution_type: app_store
+        bundle_identifier: com.teps.sos_mama 
+        
     scripts:
-      - flutter pub get
-      - cd ios && pod install
-      - flutter build ipa --release --no-codesign
+      - name: Instalar dependências Flutter
+        script: flutter pub get
+      - name: Instalar dependências iOS (Pods)
+        script: cd ios && pod install
+      - name: Build do IPA assinado
+        script: flutter build ipa --release --export-method=app-store
 
     artifacts:
       - build/ios/ipa/*.ipa
