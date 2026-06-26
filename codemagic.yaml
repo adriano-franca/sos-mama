@@ -12,7 +12,7 @@ workflows:
         
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.teps.sos_mama 
+        bundle_identifier: com.teps.sosmama 
         
     scripts:
       - name: Instalar dependências Flutter
